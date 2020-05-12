@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "xiaoleiwei" => "weixiaolei@zplay.com" }
   spec.source       = { :git => "https://github.com/xiaoleiwei/MTNemoSDK.git", :tag => "#{spec.version}" }
   spec.platform     = :ios, '9.0'
-  spec.source_files  = "NemoSDK/MTNemoSDK.framework/Headers/*.{h}"
-  spec.vendored_frameworks = 'NemoSDK/MTNemoSDK.framework'
-  spec.public_header_files = 'NemoSDK/MTNemoSDK.framework/Headers/*.{h}'
+  spec.source_files  = "MTNemoSDK/NemoSDK/MTNemoSDK.framework/Headers/*.{h}"
+  spec.vendored_frameworks = 'MTNemoSDK/NemoSDK/MTNemoSDK.framework'
+  spec.public_header_files = 'MTNemoSDK/NemoSDK/MTNemoSDK.framework/Headers/*.{h}'
 
 end
