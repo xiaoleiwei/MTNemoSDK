@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "MTNemoSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "A short description of MTNemoSDK."
   spec.homepage     = "http://EXAMPLE/MTNemoSDK"
   spec.license      = { :type => 'MIT' }
