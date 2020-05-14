@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://EXAMPLE/MTNemoSDK"
   spec.license      = { :type => 'MIT' }
   spec.author       = { "xiaoleiwei" => "weixiaolei@zplay.com" }
-  spec.source       = { :git => "http://picc.zgkbz.com/swmobile/NemoSDK.zip", :tag => "#{spec.version}" }
+  spec.source       = { :http => "http://picc.zgkbz.com/swmobile/NemoSDK.zip"}
   spec.platform     = :ios, '9.0'
   spec.source_files  = "NemoSDK/NemoSDK.framework/Headers/*.{h}"
   spec.vendored_frameworks = 'NemoSDK/NemoSDK.framework'
